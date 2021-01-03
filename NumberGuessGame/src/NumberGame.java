@@ -26,11 +26,11 @@ public class NumberGame {
                 System.out.println("The number is greater than your " + guess + " guess.");
             }
             // Check if the random number is less than the guess.
-            if (randomNumber < guess) {
+            else if (randomNumber < guess) {
                 System.out.println("The number is less than your " + guess + " guess.");
             }
             // Check if the random number is equal to the guess.
-            if (randomNumber == guess) {
+            else {
                 hasWon = true;
                 break;
             }
